@@ -20,7 +20,7 @@
 
 .Todo-App {
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 35px;
     text-align: left;
 }
 
@@ -39,4 +39,14 @@ li {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.message {
+    display: inline-block;
+    width: 100%;
+    line-height: 35px;
+    background-color: #61dafb;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
 }
