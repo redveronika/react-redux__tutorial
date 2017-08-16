@@ -3,8 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import TodoFrom from './components/TodoForm';
 import TodoList from "./components/TodoList";
-import {connect} from "react-redux";
-import {updateCurrent} from './reducers/todo';
 
 class App extends Component {
   render() {
@@ -15,17 +13,12 @@ class App extends Component {
           <h2>React with Redux egghead course</h2>
         </div>
         <div className="Todo-App">
-            <TodoFrom
-                changeCurrent={this.props.updateCurrent}
-                currentTodo={this.props.currentTodo}/>
-            <TodoList todos={this.props.todos}/>
+            <TodoFrom />
+            <TodoList/>
         </div>
       </div>
     );
   }
 }
 
-export default connect(
-    (state) => state,
-    {updateCurrent})
-(App);
+export default App;
