@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Messages from './components/Messages';
 import TodoFrom from './components/TodoForm';
 import TodoList from "./components/TodoList";
 
@@ -13,6 +14,7 @@ class App extends Component {
           <h2>React with Redux egghead course</h2>
         </div>
         <div className="Todo-App">
+            <Messages />
             <TodoFrom />
             <TodoList/>
         </div>
