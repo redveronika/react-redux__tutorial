@@ -1,11 +1,6 @@
 {
   "todos": [
     {
-      "id": 1,
-      "name": "Rendering static UI",
-      "isCompleted": true
-    },
-    {
       "id": 2,
       "name": "Create initial state",
       "isCompleted": true
@@ -14,11 +9,6 @@
       "id": 3,
       "name": "Render based on state",
       "isCompleted": false
-    },
-    {
-      "name": "temp",
-      "isCompleted": false,
-      "id": 4
     },
     {
       "name": "temp",
