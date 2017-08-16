@@ -50,3 +50,7 @@ li {
     color: white;
     margin-bottom: 5px;
 }
+
+a {
+    padding: 0 5px;
+}
